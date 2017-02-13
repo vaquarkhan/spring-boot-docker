@@ -79,3 +79,7 @@ This assumes that you have a Google Cloud Platform account, a Container Engine m
 4. Push it: `gcloud docker push gcr.io/${PROJECT_ID}/helloworld:v2`
 5. Rolling update: `kubectl rolling-update frontend --image=gcr.io/${PROJECT_ID}/helloworld:v2 --update-periods=5s`
 
+
+--------------------------------------
+
+https://spring.io/blog/2015/10/19/springone2gx-2015-replay-spring-boot-micro-services-containers-and-kubernetes-how-to
